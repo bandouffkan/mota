@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
+  <image source="terrain.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="enemy" tilewidth="32" tileheight="32">
+  <image source="enemy.png" width="128" height="2048"/>
+ </tileset>
+ <tileset firstgid="273" name="door" tilewidth="32" tileheight="32">
+  <image source="door.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="305" name="item" tilewidth="32" tileheight="32">
+  <image source="item.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="369" name="npc" tilewidth="32" tileheight="32">
+  <image source="npc.png" width="128" height="288"/>
+ </tileset>
+ <layer name="floor" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFwxoDAHU4AHo=
+  </data>
+ </layer>
+ <layer name="prop" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAQ0YGnMAIjxwlakHAkUT1xABnoJmmNDB3MABTIv0GUgMKWwD1/QI5
+  </data>
+ </layer>
+ <layer name="enemy" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcHMUiJktATyqU/ojGRwaeZLsIAc5CMbUBsv+wuZOQ/7GBkyTai02vJxZ1AIsCBxk=
+  </data>
+ </layer>
+ <layer name="NPC" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyrZGQYBcMcAADoiwB7
+  </data>
+ </layer>
+ <layer name="door" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFmowQWomRgSpACIs5goy45dDV0BqA7MHnDmzqcQFFHHKE/EItv8LMQTcPAEpdATk=
+  </data>
+ </layer>
+ <layer name="wall" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAETDhoZHlkjC6GC+CTwyWPzXx0ewi5F1kdsX5CN5+Q33ABQuGDz83YwheXPD4AAFiEAFk=
+  </data>
+ </layer>
+ <layer name="darkWall" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAJjR6FAwfAAAJRAAF
+  </data>
+ </layer>
+</map>

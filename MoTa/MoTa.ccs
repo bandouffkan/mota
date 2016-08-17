@@ -1,0 +1,19 @@
+<Solution>
+  <PropertyGroup Name="MoTa" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Control">
+          <Image Name="1614.png" />
+          <Project Name="ControlHandle.csd" Type="Node" />
+          <Project Name="ControlLayer.csd" Type="Layer" />
+          <Image Name="down_Cont.png" />
+          <Image Name="left_Cont.png" />
+          <Image Name="normal_Cont.png" />
+          <Image Name="right_Cont.png" />
+          <Image Name="up_Cont.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

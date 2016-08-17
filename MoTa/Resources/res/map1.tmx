@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
+  <image source="terrain.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="enemy" tilewidth="32" tileheight="32">
+  <image source="enemy.png" width="128" height="2048"/>
+ </tileset>
+ <tileset firstgid="273" name="door" tilewidth="32" tileheight="32">
+  <image source="door.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="305" name="item" tilewidth="32" tileheight="32">
+  <image source="item.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="369" name="npc" tilewidth="32" tileheight="32">
+  <image source="npc.png" width="128" height="288"/>
+ </tileset>
+ <layer name="floor" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFwxoDAHU4AHo=
+  </data>
+ </layer>
+ <layer name="prop" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAamjKg0PmAIVOMIxEZoap2h4o5EmIEOAJYgAdw=
+  </data>
+ </layer>
+ <layer name="enemy" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdGJKg1hSHuCIJdpmi2YlNL7HmUQIEkdiGaDQhEEimnaSENS4AAF1GAlY=
+  </data>
+ </layer>
+ <layer name="NPC" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANVDKSqGEUDDgAANGrAHs=
+  </data>
+ </layer>
+ <layer name="door" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMKDFCaEVGCg0aJEAIzR+CZPqLXH20AACZXwB9
+  </data>
+ </layer>
+ <layer name="wall" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYCYBYwPMaGx09bjMIcVcZPXE6iVGDp+7iDUXl5sIqSXFXGxqicUAxeAAyg==
+  </data>
+ </layer>
+</map>

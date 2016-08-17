@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
+  <image source="terrain.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="enemy" tilewidth="32" tileheight="32">
+  <image source="enemy.png" width="128" height="2048"/>
+ </tileset>
+ <tileset firstgid="273" name="door" tilewidth="32" tileheight="32">
+  <image source="door.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="305" name="item" tilewidth="32" tileheight="32">
+  <image source="item.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="369" name="npc" tilewidth="32" tileheight="32">
+  <image source="npc.png" width="128" height="288"/>
+ </tileset>
+ <layer name="floor" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFwxoDAHU4AHo=
+  </data>
+ </layer>
+ <layer name="prop" width="11" height="11">
+  <properties>
+   <property name="visible" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuIAx40C7gDoAACqDADU=
+  </data>
+ </layer>
+ <layer name="prop2" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxzZGRgMEXCIBAEpZHFHYHYCYiNkDAyMGREYCc0uVEwsAAAoDUD0Q==
+  </data>
+ </layer>
+ <layer name="enemy" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZwHCgHUBHAAAvEAAy
+  </data>
+ </layer>
+ <layer name="NPC" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEjYxYBEfBkAUA7YMAgw==
+  </data>
+ </layer>
+ <layer name="door" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZQJVxoF1AG6DEiEojAwAsqQBt
+  </data>
+ </layer>
+ <layer name="wall" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFzGg0PkBttSxEioP4nESIs2DB+MRJAZxEYHLUkms/CDDjkAMA0gABUg==
+  </data>
+ </layer>
+</map>
